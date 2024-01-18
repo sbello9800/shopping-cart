@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "San project Shirt",
+        "price": 99.99,
+        "imgUrl": "/images/prenda1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "San project Shirt",
+        "price": 97.90,
+        "imgUrl": "/images/prenda2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "San project hoodie",
+        "price": 120.00,
+        "imgUrl": "/images/prenda3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Monastery Cap",
+        "price": 130.00,
+        "imgUrl": "/images/monasterygorra.jpg"
+    }
+]
