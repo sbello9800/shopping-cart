@@ -1,18 +1,19 @@
 import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
+import '../styles/style.css'
 
 export function Navbar(){
     return(
-        <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
+        <NavbarBs sticky="top" className="shadow-lg mb-1" id="navBar">
             <Container>
-                <Nav className="me-auto">
-                    <Nav.Link to="/" as={NavLink}>Home</Nav.Link>
-                    <Nav.Link to="/store" as={NavLink}>Store</Nav.Link>
-                    <Nav.Link to="/about" as={NavLink}>About</Nav.Link>
+                <Nav className="navbar me-auto">
+                    <Nav.Link to="/" as={NavLink}><p>Home</p></Nav.Link>
+                    <Nav.Link to="/store" as={NavLink}><p>Store</p></Nav.Link>
+                    <Nav.Link to="/about" as={NavLink}><p>About</p></Nav.Link>
                 </Nav>
                 <Button style={{ width:"3rem", height:"3rem", position:"relative"}} 
                         className="rounded-circle"
-                        variant="outline-dark">
+                        variant="outline-light">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 576 512"

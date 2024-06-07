@@ -30,7 +30,7 @@ export function ShoppingCartProvider({children}:ShoppingCardProviderProps){
 
     
     const [cartItems,setCartItems] = useState<CartItem[]>([])
-    const cartQuantity = cartItems.reduce((quantity, item) => item.quantity + quantity, 0)
+    //const cartQuantity = cartItems.reduce((quantity, item) => item.quantity + quantity, 0)
 
     function getItemQuanity(id:number){
         return cartItems.find(item => item.id === id)?.quantity || 0

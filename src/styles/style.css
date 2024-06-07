@@ -3,3 +3,35 @@
     padding: 0;
     
 }
+
+#photo{
+    border: 1px solid white;
+    height: 50%;
+    border-radius: 50%;
+}
+
+#phrDiv{
+    padding-top: 5%;
+}
+
+#imgCol{
+    display: flex;
+    justify-content: center;
+}
+
+#prContainer{
+    background-color: #0a0a0a;
+    color: white;
+}
+#oDiv{
+    height: 100%;
+}
+
+#navBar{
+background-color: #0a0a0a;
+
+}
+
+p{
+    color: white;
+}
